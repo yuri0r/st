@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Hack:pixelsize=18:antialias=true:autohint=true";
+static char *font = "FiraCode:pixelsize=20:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -105,7 +105,7 @@ static const char *colorname[] = {
         [2] = "#80c990", /* green   */
         [3] = "#a69460", /* yellow  */
         [4] = "#a3b8ef", /* blue    */
-        [5] = "#c0c0c0", /* magenta */
+        [5] = "#e6a3dc", /* magenta */
         [6] = "#50cacd", /* cyan    */
         [7] = "#808080", /* white   */
 
@@ -121,7 +121,7 @@ static const char *colorname[] = {
 
         /* special colors */
         [256] = "#101010", /* background */
-        [257] = "#e6a3dc", /* foreground */
+        [257] = "#c0c0c0", /* foreground */
 };
 
 /*
